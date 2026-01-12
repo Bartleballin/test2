@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surge Spark Digital Marketing - Ignite Your Online Growth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Surge Spark Digital Marketing</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="mode-toggle">Toggle Dark Mode</button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" style="background-image: url('https://thumbs.dreamstime.com/b/abstract-digital-wave-glowing-dots-background-technology-futuristic-data-visualization-featuring-blue-orange-particles-380329636.jpg'); background-size: cover; background-position: center;">
+            <h1>Welcome to Surge Spark Digital Marketing</h1>
+            <p>Your partner in sparking online evolution. We help small businesses across Akron and beyond ignite growth with stunning websites, powerful digital marketing, and strategies that drive real results.</p>
+            <a href="services.html" class="cta">Spark Your Growth Today</a>
+        </section>
+
+        <section class="intro">
+            <h2>What We Do</h2>
+            <p>We specialize in custom websites, SEO, social media, email marketing, and paid ads tailored to small businesses. Whether you're starting fresh or ready to evolve, we create digital experiences that attract customers, build trust, and boost revenue.</p>
+            <img src="https://thumbs.dreamstime.com/b/colorful-silhouettes-moving-profiles-three-vibrant-human-display-sense-transformation-evolution-blending-colors-359249713.jpg" alt="Transformation & Evolution" class="inspire-image">
+        </section>
+
+        <section class="industries">
+            <h2>We Serve a Wide Range of Small Businesses</h2>
+            <div class="industry-grid">
+                <div class="industry-card">
+                    <h3>Restaurants & Cafes</h3>
+                    <p>Online ordering, menu showcases, and local promotions that fill tables.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Local Retail Shops</h3>
+                    <p>E-commerce integration and social strategies to drive foot traffic & online sales.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Professional Services</h3>
+                    <p>Credibility-building sites for lawyers, accountants, consultants, and more.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Fitness Studios & Gyms</h3>
+                    <p>Membership sign-ups, class schedules, and community engagement online.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Home Services</h3>
+                    <p>Lead generation for plumbers, electricians, cleaners, and contractors.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Creative Agencies & Freelancers</h3>
+                    <p>Portfolio sites and personal branding that showcase your talent.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>And Many More</h3>
+                    <p>From salons to auto shops to nonprofits — we tailor to your unique needs.</p>
+                </div>
+            </div>
+            <img src="https://thumbs.dreamstime.com/b/abstract-colorful-wave-background-flowing-neon-light-cosmic-design-bright-blue-pink-red-orange-gradients-glowing-particles-385823624.jpg" alt="Energy Flow & Growth" class="inspire-image">
+        </section>
+
+        <section class="portfolio">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="https://thumbs.dreamstime.com/b/digital-data-stream-vibrant-blue-orange-lights-abstract-technology-background-futuristic-perspective-glowing-lines-particles-356584248.jpg" alt="Project 1">
+                    <h3>Local Cafe Website & Marketing</h3>
+                    <p>Boosted online orders by 50% with a fresh site and targeted ads.</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://thumbs.dreamstime.com/b/glowing-abstract-wave-light-particles-lines-blue-purple-dark-background-futuristic-digital-energy-flow-sound-421477035.jpg" alt="Project 2">
+                    <h3>Retail Shop E-Commerce Launch</h3>
+                    <p>From zero to thriving online store in weeks.</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://thumbs.dreamstime.com/b/abstract-technological-fusion-artistic-digital-background-innovation-convergence-perspective-concept-image-features-312078199.jpg" alt="Project 3">
+                    <h3>Service Pro Lead Generation</h3>
+                    <p>SEO & ads that filled calendars for months.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"Surge Spark ignited our online presence. More customers every day!"</p>
+                    <cite>- Local Cafe Owner</cite>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Tom's strategies evolved our business beyond expectations."</p>
+                    <cite>- Retail Shop Manager</cite>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Professional, fast, and results-driven – highly recommend!"</p>
+                    <cite>- Home Service Provider</cite>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-intro">
+            <h2>Meet Tom Bartlebaugh</h2>
+            <p>As the sole owner and operator, Tom brings passion, expertise, and personal attention to every client. Ready to spark your digital evolution?</p>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5622AQEO5sah1sLE1A/feedshare-shrink_800/B56ZnqtdlQKAAg-/0/1760579418256?e=2147483647&v=beta&t=UG34aLi7Q9qw3lCQoA5lW-SCsRFbrt6it5mndxw3SUE" alt="Tom Bartlebaugh">
+                    <h3>Tom Bartlebaugh</h3>
+                    <p>Owner & Operator – Dedicated to helping small businesses surge forward online.</p>
+                </div>
+            </div>
+            <a href="contact.html" class="cta">Let's Spark Something Great</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Surge Spark Digital Marketing. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

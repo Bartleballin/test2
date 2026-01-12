@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surge Spark Digital Marketing - Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Surge Spark Digital Marketing</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="mode-toggle">Toggle Dark Mode</button>
+        </nav>
+    </header>
+    <main>
+        <section class="services">
+            <h1>Our Services</h1>
+            <p>We offer tailored digital solutions to help small businesses evolve online. From stunning websites to targeted marketing, we spark growth for:</p>
+            <img src="https://thumbs.dreamstime.com/b/abstract-colorful-wave-background-flowing-neon-light-cosmic-design-bright-blue-pink-red-orange-gradients-glowing-particles-385823624.jpg" alt="Neon energy flow" class="inspire-image">
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Custom Website Development</h3>
+                    <p>Responsive, fast, beautiful sites that convert visitors into customers.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Local SEO & Google Optimization</h3>
+                    <p>Rank higher in Akron searches and attract local customers.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Social Media Management</h3>
+                    <p>Engaging content and ads on platforms your audience uses.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Paid Advertising (Google & Facebook)</h3>
+                    <p>Targeted campaigns that deliver leads and sales.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Email Marketing & Automation</h3>
+                    <p>Build loyalty and repeat business with smart newsletters.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Content Creation & Branding</h3>
+                    <p>Photos, videos, blogs, and visuals that tell your story.</p>
+                </div>
+            </div>
+            <p>And more – whatever your small business needs to surge ahead.</p>
+            <a href="contact.html" class="cta">Get Started</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Surge Spark Digital Marketing. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

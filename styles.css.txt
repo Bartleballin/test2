@@ -1,0 +1,149 @@
+/* Full styles with inspiration from abstract digital art */
+:root {
+    --bg-color: #f5f5f5;
+    --text-color: #333333;
+    --accent-color: #4CAF50;
+    --secondary-color: #FF7043;
+    --shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+body.dark-mode {
+    --bg-color: #1A1A2E;
+    --text-color: #E0E0E0;
+    --accent-color: #66BB6A;
+    --secondary-color: #FF8A65;
+    --shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+header {
+    background: linear-gradient(to right, var(--accent-color), var(--secondary-color));
+    padding: 1rem;
+    box-shadow: var(--shadow);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+#mode-toggle {
+    padding: 0.6rem 1.2rem;
+    background: white;
+    color: var(--accent-color);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 8rem 2rem;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.cta {
+    display: inline-block;
+    background: var(--secondary-color);
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: transform 0.3s;
+}
+
+.cta:hover {
+    transform: scale(1.05);
+}
+
+.inspire-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 2rem 0;
+    box-shadow: var(--shadow);
+}
+
+.industry-grid, .project-grid, .testimonial-grid, .service-grid, .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.industry-card, .project-card, .testimonial-card, .service-card, .team-card {
+    background: rgba(255,255,255,0.1);
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.industry-card:hover, .project-card:hover, .service-card:hover {
+    transform: translateY(-10px);
+}
+
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+footer {
+    background: var(--accent-color);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 0.5rem;
+}
+
+/* Animations */
+section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

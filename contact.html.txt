@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surge Spark Digital Marketing - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Surge Spark Digital Marketing</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="mode-toggle">Toggle Dark Mode</button>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h1>Contact Tom</h1>
+            <p>Ready to spark your business growth? Reach out directly – Tom handles every inquiry personally.</p>
+            <a href="mailto:tbartlebaughsells@gmail.com" class="cta">Email Tom Now</a>
+            <p>Or reply with your project details – let's discuss how we can evolve your online presence.</p>
+            <img src="https://thumbs.dreamstime.com/b/abstract-digital-landscape-glowing-particles-blue-orange-hues-resembling-fractal-realms-data-streams-intricate-pattern-398604507.jpg" alt="Glowing digital landscape" class="inspire-image">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Surge Spark Digital Marketing. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

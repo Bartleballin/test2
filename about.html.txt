@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surge Spark Digital Marketing - About Tom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Surge Spark Digital Marketing</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="mode-toggle">Toggle Dark Mode</button>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <h1>About Surge Spark</h1>
+            <p>Founded and run by Tom Bartlebaugh, Surge Spark Digital Marketing is dedicated to sparking online growth for small businesses in Akron and beyond. We focus on simple, powerful digital solutions that evolve your brand and drive real results.</p>
+            <img src="https://thumbs.dreamstime.com/b/digital-transformation-abstract-human-shape-vibrant-colorful-energy-landscape-dynamic-representation-figure-made-343627250.jpg" alt="Digital transformation" class="inspire-image">
+            <h2>Our Mission</h2>
+            <p>To ignite change and evolution for small businesses through innovative websites, targeted marketing, and personalized strategies that make you stand out online.</p>
+            <h2>About Tom Bartlebaugh</h2>
+            <p>As the sole owner and operator, Tom combines creativity, technical know-how, and a passion for small business success. With years of experience, he delivers big-agency results with personal attention and transparent communication.</p>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5622AQEO5sah1sLE1A/feedshare-shrink_800/B56ZnqtdlQKAAg-/0/1760579418256?e=2147483647&v=beta&t=UG34aLi7Q9qw3lCQoA5lW-SCsRFbrt6it5mndxw3SUE" alt="Tom Bartlebaugh">
+                    <h3>Tom Bartlebaugh</h3>
+                    <p>Owner & Operator</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Surge Spark Digital Marketing. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
